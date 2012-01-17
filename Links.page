@@ -2,436 +2,141 @@
 description: Who am I online & what have I done? - Contact information; sites I use; things I've worked on
 ...
 
-This page is about me; for information about `gwern.net`, see [About]().
+This page is about me; for information about `evenmere.org`, see [About]().
 
-# Personal
+# Profile
 
-> "A transition from an author's book to his conversation, is too often like an entrance into a large city, after a distant prospect. Remotely, we see nothing but spires of temples and turrets of palaces, and imagine it the residence of splendour, grandeur and magnificence; but when we have passed the gates, we find it perplexed with narrow passages, disgraced with despicable cottages, embarrassed with obstructions, and clouded with smoke."^[Dr. Samuel Johnson; _The Rambler_, No. 14 (5 May 1750). This is a literary way of saying I am not as interesting as my writings, and in some respect, it should not matter who I am or what I have done because [argument screens off authority](http://lesswrong.com/lw/lx/argument_screens_off_authority/).]
-
-- Social news, discussion:
-
-     > '"I don't speak", Bijaz said. "I operate a machine called language. It creaks and groans, but is mine own."'^[[Frank Herbert](!Wikipedia), _[Dune Messiah](!Wikipedia)_]
-
-    - [LessWrong.com](http://lesswrong.com/): my [submissions](http://lesswrong.com/user/gwern/submitted/) & [comments](http://lesswrong.com/user/gwern/comments/)
-    - [Reddit](!Wikipedia): my [submissions](http://www.reddit.com/user/gwern/submitted/) & [comments](http://www.reddit.com/user/gwern/comments/)
-    - [Google](http://www.google.com/profiles/gwern0): [Google+](https://plus.google.com/103530621949492999968/posts)
-    - [Hacker News](!Wikipedia): [submissions](http://news.ycombinator.com/submitted?id=gwern) & [comments](http://news.ycombinator.com/threads?id=gwern)
-- [PredictionBook](http://predictionbook.com/users/gwern)
-- [Evernotes](http://www.evernote.com/pub/gwern/gwern) -(clippings/references/citations)
-- [MyAnimeList](http://myanimelist.net/profile/gwern) ([anime](http://myanimelist.net/animelist/gwern&status=2&show=0&order=4)/[manga](http://myanimelist.net/mangalist/gwern&status=2&show=0&order=4) ratings)
-- [LastFM (music)](http://www.last.fm/user/gwern)
-- [Dragon Go](http://www.dragongoserver.net/faq.php?read=t&cat=all) [profile](http://www.dragongoserver.net/userinfo.php?uid=53846) ([turn-based Go](http://senseis.xmp.net/?TurnBasedGoServer); need to be logged in)
-- I have a [theme song](http://reddragdiva.dreamwidth.org/556568.html) ([MP3](http://reddragdiva.co.uk/lj/gwern.mp3)), courtesy of [David Gerard](http://davidgerard.co.uk/)^[There is a [moderately funny story](http://lesswrong.com/lw/4nt/what_are_you_working_on/3mlo) about how Gerard came to write it, based on my musical incompetence.]
-
-(I have nothing to do with the gwern on MySpace or with gwern.com.)
-
-<!--
-## Profile
-
-This section covers some of the most important things possible to know about me: my personality and mental description. No doubt some readers expected a carefully airbrushed & potted biography describing where I was raised, when, what my familial and tribal affiliations are, and what famous institutions I am affiliated with. The irony will not be lost on those familiar with [signaling](!Wikipedia "Signalling (economics)").
-
-(Much of this data comes from [YourMorals.org](http://yourmorals.org/), courtesy of the LessWrong post ["[POLL] LessWrong group on YourMorals.org"](http://lesswrong.com/lw/8lk/poll_lesswrong_group_on_yourmoralsorg/).)
-
-### Big Five
-
-TODO
-
-### IQ
-
-I have taken IQ tests 3 times that I know of:
-
-1. At some point in 3rd-5th grade, I took the Abbreviated Stanford-Binet and scored ~135. (I came across the report cleaning up a room as a kid and could not keep it.)
-2. In February 2009, for the purpose of a before-after [Dual N-Back](DNB FAQ) comparison, I took the Raven's test at <http://iqtest.dk/> and scored 115. (Others report they too received low scores.)
-3. On 5 August 2011, I signed up for and took the entrance survey to the prediction-contest [Good Judgment Project](Prediction markets#iarpa-the-good-judgment-project); the survey included among other things a short Raven's test. [My survey results](/docs/2011-gwern-gjp-psychsurveys.html) include the raw data but not any norm: of the 12 questions, I got 8, while the mean among participants was 8.81 and the SD 2.39.
-
-Other ways to approximate IQ are standardized tests which are heavily g-loaded; they are broadly consistent with the 130s decile:
-
-1. 2004 SAT: 800V/700M ([conversion](http://www.iqcomparisonsite.com/SATIQ.aspx))
-2. 2004 ACT: 32
-3. 2009 GRE: 730V/680M/5.5W ([conversion](http://www.iqcomparisonsite.com/GREIQ.aspx))
--->
+I'm trying out a new blogging system.  Thanks to [Gwern
+Branwen](http://gwern.net) for the template.
 
 # Contact
 
-- Email: [gwern0@gmail.com](mailto:gwern0@gmail.com)
-- [PGP key](http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xF7E5D682) ([mirror](!Wikipedia "User:Gwern/Key"); fingerprint: F7E5D682)
-
+- Email: [bts@evenmere.org](mailto:bts@evenmere.org)
+- [PGP key](http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x79E025F1) 
 <pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
-Version: GnuPG v2.0.3 (GNU/Linux)
+Version: GnuPG v1.4.11 (Darwin)
 
-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
-=cLiW
+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
+=5zzz
 -----END PGP PUBLIC KEY BLOCK-----
 </pre>
-
-# Wikis
-
-I have been active on Wikipedia and related projects since January 2004. Cumulatively[^sock], I have over 90,000 edits and have written or worked on [hundreds of articles](Wikipedia resume); during my time as an administrator, I performed thousands of administrative actions; I am an admin on the Haskell wiki, handling routine spam & vandalism:
-
-- [English Wikipedia](http://en.wikipedia.org/wiki/User:Gwern)
-- [English Wikibooks](http://en.wikibooks.org/wiki/User:Gwern)
-- [Haskell wiki](http://haskell.org/haskellwiki/User:Gwern)
-
-I also run a [custom Google search tool](!Wikipedia "Google Co-op") at ["Wikipedia Reliable Sources for anime & manga"](http://www.google.com/cse/home?cx=009114923999563836576:1eorkzz2gp4); this is a custom Google search with >1800 websites on its [black](!Wikipedia "Blacklist (computing)")  and [whitelist](!Wikipedia)s. It returns much more useful^[Compare the [CSE results](http://www.google.com/cse?cx=009114923999563836576%3A1eorkzz2gp4&q=Wings+of+Honneamise) with the [Google Results](http://www.google.com/search?q=Wings+of+Honneamise) for the anime _[Wings of Honnêamise](!Wikipedia)_. Which is more useful for an editor? For more details, see my [release announcement](http://www.mail-archive.com/wikien-l@lists.wikimedia.org/msg09145.html).] results for topics in popular culture, and as the name suggests, anime & manga in particular.
-
-# Mailing lists
-
-- [Haskell-cafe](http://www.google.com/search?q=gwern+site%3Ahttp%3A%2F%2Fwww.haskell.org%2Fpipermail%2Fhaskell-cafe%2F)
-- [XMonad](http://www.google.com/search?q=gwern+site%3Ahttp%3A%2F%2Fwww.haskell.org%2Fpipermail%2Fxmonad%2F)
-- [Yi](http://groups.google.com/group/yi-devel/search?group=yi-devel&q=gwern)
-- [Haskell libraries](http://www.google.com/search?q=gwern+site%3Ahttp%3A%2F%2Fwww.haskell.org%2Fpipermail%2Flibraries%2F)
-- [SL4](http://www.google.com/search?q=gwern+site%3Ahttp%3A%2F%2Fwww.sl4.org%2Farchive%2F)
-- [Urth](http://www.google.com/search?q=gwern+site%3Aurth.net)
-
-# Collaboration style
-
-> "My problem is that most programs I use already exist."^[Myself, on `#haskell`, answering the question why I have no large programs to my credit.]
-
-I am not a bad Haskell programmer (although I am no guru like Simon Peyton-Jones, Apfelmus, or Don Stewart), but given how long I've been using Haskell, my contributions probably look pretty slim.
-
-This is partly because of my style of contribution. I've always preferred to work on existing applications and libraries than to go write my own. I've always preferred to take someone else's work and bring it up to snuff than write a clean implementation of my own. I've always preferred prodding the author or maintainer to do the right thing than to drop a large batch of patches onto them. Likewise, I view it as superior to use Haskell standards like Cabal or Darcs than to use something like Autotools even if the latter lets us manage just a little more automation. I view it as superior to upload to [Hackage](http://hackage.haskell.org/) than to use any fancy site like [Github](!Wikipedia) or [Sourceforge](!Wikipedia).
-
-It's better to do yeoman's work taking two similar modules in two applications and split them out to a library than to write even the fanciest [purely functional](!Wikipedia) [finger tree](!Wikipedia) using [monoids](!Wikipedia). Better to commit changes that reduce user configs by a line than to demonstrate once again the elegance of monads. Better by far to file a bug than wank around in [#haskell](irc://irc.freenode.net#haskell) [golfing](!Wikipedia "code golf") expressions.
-
-It is much better to find some people who have tried in the past to solve a problem and bring them together to solve it, than to solve it yourself - even if it means being a footnote (or less) in the announcement. What's important is that it got done, and people will be using it. Not the credit. It is a high accomplishment indeed to factor out a bit of functionality into a library and make every possible user actually use it. Would that more Haskellers had this mindset! Indeed, would that more people in general had this mindset; as it is, people have bad habits of [repeatedly failing](http://www.overcomingbias.com/2010/12/the-wisdom-of-others.html) when they think they have special information, are highly [overconfident](!Wikipedia "Overconfidence effect") even in [objective areas with quick feedback](http://papers.nber.org/papers/w13711), and badly overestimate how many good ideas they can come up with[^fire] - indeed, most good ideas are [Not Invented Here](!Wikipedia). One should be able to draw upon [the wisdom of others](http://www.overcomingbias.com/2010/12/the-wisdom-of-others.html).
-
-This is an ethos I learned working with the [inclusionists](http://meta.wikimedia.org/wiki/Inclusionism) of Wikipedia. No code is so bad that it contains no good; the most valuable code is that used by other code; credit is less important than work; a steady stream of small trivial improvements is superior to occasional massive edits.
-
-> "A leader is best when people barely know that he exists, not so good when people obey and acclaim him, worst when they despise him. Fail to honor people, They fail to honor you. But of a good leader, who talks little, when his work is done, his aims fulfilled, they will all say, 'We did this ourselves.'"[^tao]
-
-This is not an ethos calculated to impress. Filing bug reports, helping newbies, commenting on articles and code, cabalizing & uploading code - these are things hard to evaluate or take credit for. They are useful, useful indeed (shepheb or, eg. myself, never boast in [#xmonad](irc://irc.freenode.net/xmonad) of having helped 5 newbies today, but over the months and years, this friendliness and ready aid is of greater value than any module in all of XMonadContrib.) but they will never impress an interviewer or earn a fellowship. Is that too bad? Did I waste all my time?
-
-I don't think so. I value my contributions, and the Haskell community is better for it. It may have made my life a little more difficult - all that time spent on Haskell matters is time I did not devote to classes or jobs or what-have-you - but ultimately they did help somebody. One could do worse things with one's time than that.
-
-# Coding contributions
-
-I mostly contribute to projects in Haskell, my favorite language; I have contributed to non-Haskell projects such as [StumpWM](!Wikipedia), [Mnemosyne](!Wikipedia "Mnemosyne (software)"), [GNU Emacs](!Wikipedia)[^emacs] etc. but not in major ways, so I do not list them here:
-
-#### Darcs
-
-#. Switched from FastPackedStrings to ByteStrings
-#. Low-level C optimization
-#. Initiated Cabalization (my work initially appeared as [darcs-cabalized](!Hackage) and then was merged into HEAD and `darcs-cabalized` deprecated)
-#. Refactoring of shell tests
-#. Initiated switch from [MoinMoin](!Wikipedia) wiki to Gitit
-#. Identified performance issue & instigated addition of `--max-count` option for Filestore
-
-#### XMonad
-#. Contributed modules:
-    i. XMonad.Util.Paste
-    ii. XMonad.Actions.Search
-    iii. XMonad.Actions.WindowGo
-    iv. XMonad.Util.XSelection
-#. Maintain previous[^commit]
-
-#### Yi
-#. Contributed modules:
-    i. Yi.IReader
-    ii. Yi.Mode.IReader
-    iii. Yi.Hoogle
-#. Improved Emacs keybindings
-#. Initiated 'Unicodify' or 'Pretty Lambdas' feature for Haskell syntax highlighting
-#. Added movement-related functions for improved incremental search
-#. Cleanup[^clean]
-#. Comment support to cabal-mode
-
-#### Lambdabot
-#. (Re)Cabalized[^cabalized]
-#. Adapted to use Mueval
-#. Refactored out code in multiple packages:
-    i. [show](!Hackage)
-    ii. [lambdabot-utils](!Hackage)
-    iii. [brainfuck](!Hackage)
-    iv. [unlambda](!Hackage)
-#. Implemented run-in-any-directory functionality (previously Lambdabot could only run in the repository directory)
-#. Cleanup
-#. Maintain it (with Cale Gibbard)
-
-#### Gitit
-- Wrote Darcs backend (which was moved to the filestore package and became Data.FileStore.Darcs)
-- Did some optimization work (images, JavaScript & CSS minification, wrote gzip encoding & initiated expire headers, JS relocation, fewer calls to expensive filestore functions)
-- Wrote RSS support
-- Wrote Interwiki plugin
-- Wrote Date plugin
-- Wrote WebArchiver & WebArchiverBot plugins (see later [archiver](#archiver) standalone tool/library)
-- Wrote Unicode plugin
-- Wrote HCAR entry
-- Misc. bug reports & suggestions
-- Added PDF export functionality
-- Integrated JQuery-based floating footnotes
-
-##### Filestore
-- Instigated its development/use in Gitit & [Orchid](http://hackage.haskell.org/cgi-bin/hackage-scripts/package/orchid)
-- Maintain the Darcs backend (debug & optimize)
-
-#### Mueval
-- Wrote and maintain it
-
-#### wp-archivebot
-- Wrote and maintain it (see <http://www.haskell.org/pipermail/haskell/2009-June/021388.html>)
-
-#### archiver
-- Wrote and maintain it (see <http://www.haskell.org/pipermail/haskell-cafe/2010-December/087158.html>)
-
-#### Change-monger
-- Wrote and maintain it
-
-#### Base libraries
-##### Base
-- Added [Control.Monad.void](!Hoogle)
-- Helped replace [Data.List.sort](!Hoogle) with YHC's more efficient implementation (see <http://hackage.haskell.org/trac/ghc/ticket/2143>)
-
-##### Unix
-- fixed a possible runtime crash in `mkstemp`
-- added `mkstemp` docs
-
-#### Autoproc
-- Cleanup
-- Improved basic functionality
-- Implemented an XMonad-style reload system to allow actual customization
-- Maintain it
-
-#### Frag
-- Updated for GHC 6.8 & 6.10[^ghc]
-- Cleanup
-- Replaced the non-Free level data and graphics with Free ones
-
-#### HalFS
-- Updated
-- Improved cabalization
-
-### Shu-thing, Monadius
-- Linux portability fixes
-- Cabalized
-- Cleanup
-
-### Hint
-- Improved examples, docs
-- Added UTF8 support
-- Made use ghc-paths library
-- Enabled QuickCheck support
-- Added GHC-options support
-
-## Hlint
-- added GHCi integration
-
-### Pugs
-- Cleaned up their third-party modules
-- Fixed up various Cabal issues
-- Helped maintain it
-
-### ZFS
-- Cabalized
-- Cleanup
-
-### Greencard
-- Updated
-- Cabalized & did the package split
-
-### ArrayRef
-- Cabalized
-- Cleanup
-- Updated
-
-### Hashell
-- Updated for 6.8's GHC API
-- Cleanup
-- Cabalized
-
-### QuickCheck
-- Prototyped the Data.Complex instance
-
-### GenI
-- Improved Cabalization
-
-### HArchive
-- Cabalized
-
-### HaLeX
-- Cabalized
-
-### HTF
-- Cabalized
-
-### PArrows
-- Cabalized
-
-### Baskell
-- Cabalized
-
-### Mage
-- Cabalized
-- Cleanup
-
-### Haskell In Space
-- Cabalized
-- Cleanup
-- Updated
-
-### Smallcheck
-- Cabalized
-
-### Topkata
-- Improved Cabalization
-
-### HsSyck
-- ByteString updates
-- Improved cabalization
-
-### HList
-- Updated
-- Cabalized
-
-### flow2dot
-- Updated
-
-### hinvaders
-- Cabalized
-- Updated
-
-### Whim
-- Cabalized whim
-
-### Tagsoup
-- replaced old custom HTTP download code with standard library functions
-
-### The others & the rest
-
-I cabalized and/or uploaded (according to the [Hackage upload log](http://hackage.haskell.org/packages/archive/log)):
-
-- [Barracuda](!Hackage)
-- [DBus](!Hackage)
-- [DisTract](!Hackage)
-- [DrIFT-cabalized](!Hackage)
-- [FermatsLastMargin](!Hackage)
-- [Flippi](!Hackage)
-- [HFuse](!Hackage)
-- [HRay](!Hackage)
-- [Hashell](!Hackage)
-- [HsJudy](!Hackage)
-- [TypeIlluminator](!Hackage)
-- [ZMachine](!Hackage)
-- [adhoc-network](!Hackage)
-- [bio](!Hackage)
-- `blockio`
-- [botpp](!Hackage)
-- `child`
-- [clustertools](!Hackage)
-- [condorcet](!Hackage)
-- [conjure](!Hackage)
-- [dephd](!Hackage)
-- [estreps](!Hackage)
-- [fst](!Hackage)
-- [genericserialize](!Hackage)
-- [goa](!Hackage)
-- [greencard](!Hackage) & [greencard-lib](!Hackage)
-- [harp](!Hackage)
-- [haskell-src-exts](!Hackage)
-- [helisp](!Hackage)
-- [hetris](!Hackage)
-- [hgeometric](!Hackage)
-- [highWaterMark](!Hackage)
-- [hinstaller](!Hackage)
-- [hjs](!Hackage)
-- [hopenssl](!Hackage)
-- [hs-fltk](!Hackage)
-- [hscurses](!Hackage)
-- [hsdip](!Hackage)
-- [hsdns](!Hackage)
-- [hsdns](!Hackage)
-- [hsemail](!Hackage)
-- [hsgnutls](!Hackage)
-- [hsgnutls](!Hackage)
-- [hsntp](!Hackage)
-- [hsp](!Hackage)
-- [hspr-sh](!Hackage)
-- [hybrid](!Hackage)
-- [infix](!Hackage)
-- [interlude](!Hackage)
-- [ivor](!Hackage)
-- [lazysmallcheck](!Hackage)
-- [linkchk](!Hackage)
-- [mohws](!Hackage)
-- `monadenv`
-- [mpdmate](!Hackage)
-- [nanocurses](!Hackage)
-- [nymphaea](!Hackage)
-- [pesca](!Hackage)
-- [pkcs1](!Hackage)
-- [plugins](!Hackage)
-- [popenhs](!Hackage)
-- [powermate](!Hackage)
-- [pugs-HsSyck](!Hackage)
-- [pugs-hsregex](!Hackage)
-- [rbr](!Hackage)
-- [reify](!Hackage)
-- [roguestar-engine](!Hackage)
-- [roguestar-gl](!Hackage)
-- [rsagl](!Hackage)
-- [simseq](!Hackage)
-- [smallcheck](!Hackage)
-- [tetris](!Hackage)
-- [thih](!Hackage)
-- [trhsx](!Hackage)
-- [type-equality-check](!Hackage)
-- [vty](!Hackage)
-- [xml-parsec](!Hackage)
-- [xml2x](!Hackage)
-- [xmonad-utils](!Hackage)
-- [xsact](!Hackage)
-- [yi-gtk](!Hackage)
-- [yi-vty](!Hackage)
-
-[^emacs]: For example, my clean up and extension of the browse-url module was completely rewritten by [RMS](!Wikipedia "Richard Stallman") - so I can hardly take credit there.
-[^clean]: Henceforth, 'cleanup' should be taken as referring to extensive miscellaneous changes which include (in no particular order):
-
-    - fixing GHC's <tt>-Wall</tt> or hlint warnings
-    - replacing OPTION pragmas with LANGUAGE pragmas
-    - tracking down licensing information
-    - switching from Haskell98 imports to the standard hierarchical module imports
-        i. eg. <tt>import Char</tt> -> <tt>import Data.Char</tt>; nontrivial in some cases where Haskell98 modules were dispersed
-    - reorganizing the file tree
-    - improving the Cabalization
-    - whitespace formatting, and so on.
-
-[^cabalized]: Henceforth, this typically implies that I uploaded it to Hackage as well
-[^ghc]: Henceforth, this implies that I made whatever changes necessary to get it compiling on GHC 6.8.x and 6.10.x
-[^commit]: Henceforth, this implies I have a commit-bit (or equivalent) for that project.
-[^sock]: That is, summing up the (surviving) edits of my various accounts over the years: [User:Gwern](!Wikipedia), [User:Marudubshinki](!Wikipedia), & [User:Rhwawn](!Wikipedia)
-[^tao]: [Chapter 17, _Tao Teh Ching_](!Wikiquote "Tao_Te_Ching"); ([alternate translation](!Wikisource "Laozi (Wikisource translation)#Chapter_17"))
-[^fire]: For further reading on overconfidence, see [all LW articles so tagged](http://lesswrong.com/tag/overconfidence/). I once read in a book of a study in which subjects were asked to generate ideas for, IIRC, putting out a fire, and to stop only when they were convinced they had thought up all good ones, and usually stopping when they had thought up only a third; but I have been unable to refind it and would appreciate knowing details if this description rings any bells for a reader.

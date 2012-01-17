@@ -1,7 +1,7 @@
 #!/usr/bin/env runhaskell
 {-# LANGUAGE OverloadedStrings #-}
 import Control.Arrow (arr, (>>>), (>>^))
-import Data.FileStore (darcsFileStore)
+import Data.FileStore (gitFileStore)
 import Network.HTTP (urlEncode)
 import Network.URI (unEscapeString, isUnescapedInURI)
 import Network.URL (encString)
@@ -35,9 +35,11 @@ main = do  hakyll $ do
                  >>> applyTemplateCompiler "static/templates/default.html"
 
 -- copy over generated RSS feed
-           writeFile "_site/atom.xml" =<< filestoreToXmlFeed rssConfig (darcsFileStore "./")  Nothing
+           writeFile "_site/atom.xml" =<< filestoreToXmlFeed rssConfig (gitFileStore "./")  Nothing
            -- Apache configuration (caching, redirects)
-           copyFile ".htaccess" "_site/.htaccess"
+             -- match "atom.xml" $ route idRoute 
+             -- create "atom.xml" $ 
+             --     requireAll_ "**.page" >>> renderAtom atomConfig
 
 options :: WriterOptions
 options = defaultWriterOptions{ writerSectionDivs = True,
@@ -48,7 +50,16 @@ options = defaultWriterOptions{ writerSectionDivs = True,
                                 writerEmailObfuscation = NoObfuscation }
 
 rssConfig :: FeedConfig
-rssConfig =  FeedConfig { fcTitle = "Joining Clouds", fcBaseUrl  = "http://www.gwern.net", fcFeedDays = 30 }
+rssConfig =  FeedConfig { fcTitle = "Packet Sniffen", 
+                          fcBaseUrl  = "http://weblog.evenmere.org", 
+                          fcFeedDays = 30 }
+
+atomConfig :: FeedConfiguration
+atomConfig = FeedConfiguration{ feedTitle = "Packet Sniffen",
+                                feedDescription = "posts",
+                                feedAuthorName = "Brian Sniffen",
+                                feedRoot = "http://weblog.evenmere.org/"
+                              }
 
 myPageCompiler :: Compiler Resource (Page String)
 myPageCompiler = cached "myPageCompiler" $ readPageCompiler >>> addDefaultFields >>> arr (changeField "description" escapeHtml) >>> arr applySelf >>> myPageRenderPandocWith

@@ -1,3 +1,4 @@
-<div id="footer">Licensed: <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/" style="text-decoration:none;"
-> <img src="http://i.creativecommons.org/l/zero/1.0/80x15.png" border="0" alt="CC0" /></a>; powered: <a href="http://github.com/jgm/gitit/tree
+<div id="footer">Licensed: <a rel="license"
+href="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+Attribution 3.0 Unported License</a> or <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU GPL 2</a>; powered: <a href="http://github.com/jgm/gitit/tree
 /master/">darcsit</a></div>
