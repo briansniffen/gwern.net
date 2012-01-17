@@ -14,7 +14,7 @@ import Text.Pandoc (bottomUp, defaultWriterOptions, HTMLMathMethod(MathML), Inli
 import Text.Pandoc.Shared (ObfuscationMethod(NoObfuscation))
 
 main :: IO ()
-main = do  hakyll $ do
+main = do  hakyllWith config $ do
              let static = route idRoute >> compile copyFileCompiler
              mapM_ (`match` static) ["docs/**",
                                      "images/**",
@@ -40,6 +40,12 @@ main = do  hakyll $ do
              -- match "atom.xml" $ route idRoute 
              -- create "atom.xml" $ 
              --     requireAll_ "**.page" >>> renderAtom atomConfig
+
+config :: HakyllConfiguration
+config = defaultHakyllConfiguration
+    { deployCommand = "rsync --delete -avz _site/ evenmere.org:/home/packets/www"
+    }
+
 
 options :: WriterOptions
 options = defaultWriterOptions{ writerSectionDivs = True,
