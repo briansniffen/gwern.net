@@ -1,0 +1,37 @@
+---
+title: ISO 17799 electronics-oriented?
+---
+
+I just heard an intelligent, IA-focused gentleman discuss his team's
+new information policy framework.  It's neat stuff: a meta-policy for
+writing information assurance policies, focused on risk assessments,
+continuous measurements feeding back into policy generation, and a
+format-agnostic approach.  That is, it encourages policies to be
+written for certain sorts of information content, not for specific
+technologies or storage media.
+
+For example, policies at many organizations are written for Laptop
+Drives, Shared Storage, Web Servers, USB Media, Paper Storage, Voice
+Mail, etc.  These folks advocate writing policy around the content
+instead, so regulation of HR/Personnel information is written in one
+place, covering it whether it's stored in voice mail, a filing
+cabinet, or an iPod.
+
+That seems like a neat idea.  There are problems, of course, but in a
+lot of ways it describes [why I like functional programming better than
+object-oriented programming][1]: it's easier to extend on one axis,
+harder on another.  So I asked the obvious question: how does this
+compare to ISO 17799?  Ideally, I'd have been pointed to a document
+comparing this to a number of other frameworks, including ISO 17799.
+
+They have no such document.  Instead, I got told that ISO 17799 is
+boring and uninteresting, since it focuses too much on electronic
+issues.  These folks claimed that, for example, it required regulation
+of electronic documents separately from paper documents.  Now, I
+haven't looked at this since it was *British* Standard 7799---and my
+notes from those days got left behind under NDA.  But I sure don't
+remember it being structured that way.  Anyone who works with
+CISSP/17799 stuff on a regular basis, am I mis-remembering?  Did this
+guy's quick read of ISO 17799 confuse him?
+
+[1]: bts/f-vs-oo.html

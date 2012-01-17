@@ -1,0 +1,27 @@
+---
+title: Why do I write functional programs?
+---
+
+Most programmers these days write in object-oriented programming
+languages, such as Java or Python.  This category also includes much
+Perl 5, C++, and Objective-C code.  It even includes much Javascript,
+which work on the Document Object Model.  Such code is organized as a
+collection of (classes of) objects.  You get a new object by demanding
+a new, blank element of some class, or by demanding that some other
+object be cloned.  So why do I write functional programs, not
+object-oriented programs?  Because these are easy and hard to extend
+in different ways.
+
+With object-oriented programs, it's easy to extend them by adding a
+new class of object.  And it's easy to add a function to one
+class... though you then have to consider all its children.  It's hard
+to add a new feature in a broad way, like serialization or access
+control: you have to change each of your class definitions, likely
+every file in your program.  So nouns are easy, but new verbs are hard.
+
+With functional programs, it's hard to add a new sort of noun to the
+world, but easy to add a new sort of verb.  Since I tend to program in
+Unix-like environments, this is nice: I know generally what sorts of
+noun I'll be dealing with.  I write programs to add new verbs to my
+vocabulary.
+

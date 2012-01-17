@@ -1,0 +1,43 @@
+---
+title: Apple's real iPod and iTMS lock-in
+---
+
+Apple's god-king recently [announced][] that he'd be happy to sell
+music without DRM.  I even sort-of believe him.  That is, I believe
+he's not delighted to be a sell-out, and would rather do business in a
+Whole Earth-friendly way than otherwise... as long as both are
+massively profitable.
+
+Ed Felten at Princeton followed up with his own [note][] on the
+furor.  I think he misses a point, though.  Jobs wrote:
+
+> Some have argued that once a consumer purchases a body of music from
+> one of the proprietary music stores, they are forever locked into only
+> using music players from that one company. Or, if they buy a specific
+> player, they are locked into buying music only from that company's
+> music store. Is this true? Let's look at the data for iPods and the
+> iTunes store---they are the industry's most popular products and we
+> have accurate data for them. Through the end of 2006, customers
+> purchased a total of 90 million iPods and 2 billion songs from the
+> iTunes store. On average, that's 22 songs purchased from the iTunes
+> store for each iPod ever sold.
+>
+> Today's most popular iPod holds 1000 songs, and research tells us that
+> the average iPod is nearly full.  This means that only 22 out of 1000
+> songs, or under 3% of the music on the average iPod, is purchased from
+> the iTunes store and protected with a DRM. The remaining 97% of the
+> music is unprotected and playable on any player that can play the open
+> formats.  Its hard to believe that just 3% of the music on the average
+> iPod is enough to lock users into buying only iPods in the future.
+> And since 97% of the music on the average iPod was not purchased from
+> the iTunes store, iPod users are clearly not locked into the iTunes
+> store to acquire their music.
+
+But he's trying to slip something by you.  Even if Apple strips out
+DRM and ceases to hold a monopoly on players-of-FairPlay-music,
+they'll still have the only convenient HW player for AAC.  AAC may be
+an open standard, but outside of Apple and some weird Archos gear, you
+don't see it at the BestBuy.
+
+[announced]: http://www.apple.com/hotnews/thoughtsonmusic/
+[note]: http://www.freedom-to-tinker.com/?p=1117

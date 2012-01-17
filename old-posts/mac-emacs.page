@@ -1,0 +1,12 @@
+---
+title: Emacs keybindings in normal mac programs
+---
+
+I just hit C-x C-s by habit, while in a TextEdit.app window.  The
+document was promptly saved to disk.  I'm in shock.  I don't remember
+ever setting this up, but this implies something pretty weird about
+the people working on TextEdit.
+
+I'd known about single-key commands like C-a and C-e, but this means
+they implemented an entire prefix-key system just to handle Emacs-like
+keybindings in text widgets.

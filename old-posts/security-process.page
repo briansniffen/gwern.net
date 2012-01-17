@@ -1,0 +1,48 @@
+---
+title: Process isn't a problem; it's those darn engineers!
+---
+
+From a colleague working on the process side of accrediting computing
+systems for integration with big, secure networks:
+
+> I have rarely seen an instance in which vulnerabilities could not be
+> closed or mitigated in some fashion, and rarely still was it that
+> the [security accreditation] process truly held up the system for
+> any significant period of time.  I think it is more an excuse than
+> anything else.
+
+That's right, it's those lazy engineers!  If they'd just get their act
+together and close the vulnerabilities in the first place, everything
+would work smoothly.  So the next step is to condescend to them and admit that
+they're trained to build functional systems, not manage all the risks
+involved in deploying and operating them---so we'll have an iterative
+development process, continuing to let the engineers propose systems,
+have the security gods send back the offering with some
+vulnerabilities flagged, and repeat until it's done or upper
+management intercedes and demands the system be fielded as-is, now.
+
+That kind of eager processing makes sense in places where doing more
+work is free---some kinds of highly concurrent computing, for
+example.  But it makes no sense when your working units are human
+beings whose morale must be maintained.  The present C&A process is
+not [humane][].  It's too one-way: requirements go down, and
+eventually a product comes back up... with an associated cost.
+
+The whole system can be constructed to minimize or manage the risks
+associated with any particular vulnerability.  If you insist on
+burnishing each component until it shines, until no vulnerabilities or
+risks can be found, you're going to necessarily delay the result and
+increase the cost.  You may not even see a practical security benefit.
+
+----
+
+A postscript for some of those reading this: some systems do need to
+be built at the highest evaluation or protection levels, with formal
+methods proving their correctness at every step, and every possible
+error of design or implementation corrected.  These situations are
+rare---and should be justified by pointing to enormous savings in
+mitigating some other risk.  For example, bulk declassification
+systems might require detailed scrutiny.  They compromise existing
+air-gap security measures, which save a fortune.
+
+[humane]: http://jef.raskincenter.org/home/index.html

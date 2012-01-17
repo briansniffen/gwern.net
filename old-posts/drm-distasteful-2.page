@@ -1,0 +1,110 @@
+---
+title: DRM for copy control is both impractical and impure
+---
+
+In a comment on [my previous post](drm-distasteful.html),
+csoandy writes:
+
+> The question is actually a good philosophical problem, and you've
+> run into the Voltaire argument (the perfect is the enemy of the
+> good).  Many opponents of DRM (justly) reference arguments based on
+> the malice of the rights-holders.  Assume that rights holders were
+> reasonable people, and attempted to provide a full set of legitimate
+> uses, and had a non-perfect DRM system that allowed those uses.
+
+So they'll accept the error rate on their side?  That is, it'll let me
+do anything I want that actually is legal, and a few things that
+aren't.  But it'll stop a number of illegal things.
+
+No such system can be built.
+
+## Warning: Theory
+
+A DRM system is a theorem-prover.  It accepts as input some program P,
+and tries to prove theorems of the form "P will perform no illegal
+operations."  When I say "Program" here, don't envision mplayer,
+Handbrake, or Emacs as such, but one of those together with a sequence
+of user input---the program-in-practice.  Such systems must be either
+incomplete or inconsistent.  If the DRM system is incomplete, we're in
+the state I was talking about---some true theorems can't be proven in
+this logic, so some legal programs can't be run.  If the DRM system is
+inconsistent, we're in the case you're talking about: a few untrue
+statements can be proven.
+
+But since this is a complete logic, it contains &forall; A,B. A^~A
+&rarr; B.
+That is, from any contradiction we can prove anything at all.  In
+other words, if a DRM system lets through 1% of the illegal cases
+*and* all of the legal cases, it's possible to construct any illegal
+activity from the result.  A DRM system in a digital, general-purpose
+computing environment can't have a 1% false-admission rate: it can
+have 0, or 100%.  One bad guy getting out a clean copy and the whole
+DRM regime is screwed.  Even with watermarking schemes, which attempt
+to meet the goals you describe much more than the interoperability-DRM
+used in FairPlay and HDCP, one unmarked copy is all it takes to
+locally collapse the regime.
+
+And since this is a general-purpose computing environment, the process
+of scrubbing watermarks can be automated.  Now you have a class break.
+That is, any DRM system with a slight failure rate in favor of the bad
+guys lets the bad guys get away with anything they want.  DRM
+designers can either restrict user functionality *and* inconvenience
+legitimate users, with no real way to cut down on the latter, or else
+serve no purpose in preventing illegal copies.
+
+## Theory's over
+
+As an example of the last: consider Apple's FairPlay.  I won't buy
+From the iTunes music store because it imposes too many inconveniences
+on me, coordinating my legal music sharing with Kat.  I did until they
+tightened restrictions; now I won't.  Their billions of dollars of
+investment haven't fixed that because they can't: they do nothing to
+prevent copying, since all those songs hit the darknet anyway, but
+still manage to inconvenience users enough to lose customers!
+
+I'm working on an explanation of that targeted to laymen.  One point
+I'm not sure how to cover is the jump from "possible" to "easy"---it
+happens that for this sort of case, it *is* easy to construct any
+illegal copying from the result, but my previous toying with this idea
+has met complaints that I'm only saying "possible."  Ah well, I'll
+wave my hands harder.
+
+> The question now is whether a given person's opposition is
+> ideological - DRM is evil, and they'll just object - or practical -
+> the DRM won't work right, so shouldn't be used.  It's worth noting
+> that your argument - that DRM can't perfectly protect the rights -
+> is actually an invalid argument from the current opposition
+> viewpoint.  If a rightsholder chooses to use DRM that provides 99%
+> of the protection they want, and are willing to accept the 1% theft
+> risk, that's their worry, not the consumer's worry.  The consumer's
+> worry is when the rightsholder employs DRM that doesn't provide
+> adequate protection, and sacrifices consumer rights to do so.
+
+I agree that their acceptance of the 1% theft risk is their
+worry---but I feel it only fair to warn them that they're going to end
+up with a 100% theft risk.  DRM works well in cases where class breaks
+are not helpful---like cell phones tied to networks, or iPods to
+iTunes.  It works very poorly in cases where class and metaclass
+breaks are easy: once one MP3 of a song is leaked, that's it, it's out
+in the open.  Once the CSS-decryption process is automated, *all*
+CSS-protected movies are out in the open.
+
+The consumer isn't actually worried about the DRM providing adequate
+protection, I think: he is worried about inconvenience, cost, and yes,
+a loss of his rights to manipulate purchased media.  No DRM system can
+avoid these practical concerns: they're always going to be spending a
+noticeable chunk of CPU time on crypto (cost), they're always going to
+involve more hoops and more device incompatibility (inconvenience,
+cost), they're always going to make systems more fragile (what happens
+to my AAC backups when Apple goes under?), and they're always going to
+prevent some legitimate uses---consider what happens when a copyright
+holder buys a copy of his own media, protected by some DRM scheme.  He
+can do *anything he wants* with it, legally---but the DRM scheme is
+unlikely to permit this.
+
+And for all that, they're never going to provide protection firm
+enough to keep content under wraps.  DRM schemes are great for
+corporate environments, preventing anyone but PR from sending mail
+with certain content outside the company.  They're great for device
+lock-in---the Torx of the digital world.  But they're no more useful
+for copy control than GnuPG is useful for general mail security.

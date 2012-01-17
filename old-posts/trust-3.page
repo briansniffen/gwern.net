@@ -1,0 +1,19 @@
+---
+title: Trust/3
+---
+
+"Trust" is thrown around in computer security and information
+assurance circles all the time.  Mostly, people use it to refer to a
+vaguely beneficent moral quality.  "This system has to have trust,"
+I've heard in such conversations, or "We must trust this system."
+There's a famous definition of Infosec trust: you trust anything that
+can hurt you.  You trust it not to hurt you---because you can't
+prevent it from hurting you.  Trustworthiness is a different matter
+entirely, and I won't talk about it today.
+
+I'd like to see a shared definition of trust.  Trust is a
+relationship.  It has three arguments:  Alice trusts Bob for some
+property.  If you just say that Alice trusts Bob, you haven't said
+much.  If you just say that Bob is trusted for some property, you
+probably haven't said anything.  And if you just say that Bob is
+trusted, you've said even less.

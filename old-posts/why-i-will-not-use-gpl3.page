@@ -1,0 +1,75 @@
+---
+title: Why I will not use the GPLv3
+---
+
+I am a paid-up member of the Free Software Foundation.  I'm proud of
+the work they've done, and glad to have them as a major participant in
+the world of software.  I use GNU Emacs, Make, the GNU userland, GNU
+Ghostscript, and GNU compliers every day in my work.  I license most
+of my software under the GNU GPLv2.  I've always been hesitant to use
+the "version two or any later version" language recommended by the
+FSF.  Now they've demonstrated why.
+
+The final version of the GPLv3 says this:
+
+> 13. Use with the GNU Affero General Public License.
+>
+> Notwithstanding any other provision of this License, you have
+> permission to link or combine any covered work with a work licensed
+> under version 3 of the GNU Affero General Public License into a single
+> combined work, and to convey the resulting work. The terms of this
+> License will continue to apply to the part which is the covered work,
+> but the special requirements of the GNU Affero General Public License,
+> section 13, concerning interaction through a network will apply to the
+> combination as such.
+
+That is, if I release a program under the GPLv3, anybody else can do
+their own work under the GNU Affero GPL and combine the two.  What's
+the GNU Affero GPL?  It's just like the GPL, but it says you have to
+make the source available over a network.  This is designed to allow
+authors to claim that they're distributing Free Software while
+prohibiting its use by Application Service Providers:
+
+> 13. Remote Network Interaction; Use with the GNU General Public License.
+>
+> Notwithstanding any other provision of this License, if you modify the
+> Program, your modified version must give all users interacting with it
+> remotely through a computer network (if your version supports such
+> interaction) an opportunity to receive the Corresponding Source of
+> your version by providing access to copy the Corresponding Source from
+> a network server at no charge.
+
+It's based on a fundamentally flawed understanding of what a network
+is.  A network is not just a large computer.  The USPS is a network.
+This says that if the USPS is using routing or OCR software licensed
+to them under the Affero GPL, they've got to offer that software to
+anyone who uses it---especially if the customer has a computer
+printing out the labels.  There's no clear dividing line between
+"interaction remotely through a computer network" and provision of a
+service with assistance from a computer.  When I reach a computerized
+phone tree, perhaps using GNU Bayonne on their end, are they now
+obliged to offer me the source to their phone tree?  To their
+copyrighted speech files?  To the uncopyrightable database behind
+them?
+
+The right to run the software for any purpose is the most crucial
+component of Free Software.  In his zeal to punish large corporate
+freeloading users of Free Software, RMS and the FSF have compromised
+that freedom.  If I can't run a business using Free Software, what's
+the point?
+
+The whole thing's a disaster.  It's not evident and clear to me that
+the GPLv3 is safe for me to use: that I can take back contributions
+from others and incorporate them into my software without incurring
+significant costs.  I can't be sure that the GPLv3 is a license for
+Free software.  It looks like, as with the GNU FDL, some works under
+this license are free and some are not.
+
+I hope to find clarification of this issue; one FSF blog referred to
+authors "blacklisting the Affero GPL" when using GPLv3.  Until that
+day, I won't risk using the GPLv3 for anything I write.  I'm happy to
+stick with the GPLv2.
+
+Further realization: Shoot, this may cause me to switch to XEmacs,
+when GNU Emacs goes GPLv3 and I'm not interested in publishing my Gnus
+modifications just because I have autoreply code in there.

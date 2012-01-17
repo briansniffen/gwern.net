@@ -1,0 +1,58 @@
+---
+title: Gopher 2.0, Gopher Services, and Hole-Oriented Architectures
+---
+
+Much has been written about Web 2.0.  It's nice to see such a protocol
+being revitalized---the wisdom of the Web's simple elegance
+recognized.  But much of the WS-* furor seems to have missed the point
+of Tim Berners-Lee's [beautiful][http1.0] GET, POST, PUT and embedded
+links.  When I see serious documents referring to a processor as a
+provider of services---and honestly appearing to believe that clock
+ticks come individually wrapped in XML---I worry.  Certainly, many of
+these people seem to believe that XML parsers are ``small'' and should
+be ubiquitous.  In their haste to adapt pre-web systems and ways of
+working to the new buzzwords, they neglect the management and overhead
+costs of all these layers of serialization and redirection.
+
+I've been pleased to see [Tim Bray][ongoing] and others reminding us
+all that WS-* has little to do with what makes the Web great.  But
+it's not enough.  Some people are proceeding to build reasonable Web
+Services and Service-Oriented Architectures... but in general, they're
+not doing it with the WS-* standards.  They're doing it with simple
+HTTP and XHTML, often with REST-based systems.  SOAP is nowhere in
+sight.  
+
+Therefore, I call for advancement by means of a return to still
+simpler, more basic good than the Web: **Gopher Services**.  This
+provides a much more natural, flexible means for representing
+traditional client-server applications in a SOA world.
+[Gopher][quux], for the young'ns in the audience, was a precursor to
+the web.  A given site would provide a "gopher hole."  Each node in a
+hole contains either an ordered list of links or a flat file.  Some
+links go to nodes in other gopher holes.  Like the web, links obscure
+the complicated protocol-level description of the link with a
+human-readable label.  Unlike the web, there's no place for readable
+URLs: humans only get the painted-on link names.  Common practice was
+to use null or short-cycle links to provide structure and annotations
+within the lists.  Go look at [Quux][quux] for an example of how this
+works.
+
+Because most links are local, links are separated from content,
+imperative links are clearly called out, and a client tends to
+interact with its "home gopher hole," this is a far more appropriate
+model for bringing Service Oriented Architectures to classical
+enterprise computing.  Rather than jumping straight to a zillion
+tiny separate services, these organizations want a gradual shift.
+Hole-Oriented Architectures provides that middle ground.  A hole
+provides services, but centralizes them.  Client-server interactions
+fit in well.  REST is out of the question, and you don't have to
+pervert the Web to establish your client-server overlay network.  You
+can just do C-S directly.
+
+To achieve this renaissance, we need to revamp and improve Gopher.  We
+need to do it Gopher what Ajax and Flash do to the Web, and finish
+what TurboGopher VR started back in the early 90s.
+
+  [http1.0]: http://www.w3.org/Protocols/rfc1945/rfc1945
+  [ongoing]: http://www.tbray.org/ongoing/
+  [quux]: http://quux.org/

@@ -1,0 +1,10 @@
+---
+title: Debian's module-assistant
+---
+
+Building openafs modules for Debian has always felt a bit clunky.  It
+was nice when Debian shipped them, but I understand what drove them to
+stop.  The new module-assistant package is a great solution.  This is
+so easy that I can talk those not really competent to build a kernel
+through the process.  Thanks to Eduard Bloch for writing and packaging
+it, and to all who contributed ideas.

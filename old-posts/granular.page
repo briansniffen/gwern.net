@@ -1,0 +1,37 @@
+---
+title: On Granularity
+---
+
+The use of the term "granular" in information assurance and in
+computer science in general is driving me mad.  It's common in this
+field to produce a detailed access control system, superseding
+all-or-nothing systems.  For example, I am listening now to a talk on
+a new mandatory access control (MAC) system for Macintosh (Mac)
+computers.  It has several hundred privileges, rights, and
+capabilities which can be granted.  It distinguishes between a
+process, the executable from which it was run, any filename for that
+inode, and so on.  This is described by those writing papers on the
+subject as a "fine-grained" system.  This is reasonable phrase.
+
+But the fellow on the stage has described this as a granular system.
+Sometimes he refers to it as a "more granular" system.  I'm in pain.
+The dictionary on this computer does provide a meaning for "granular"
+characterized as technical:
+
+> the scale or level of detail present in a set of data or other
+> phenomenon
+
+But this is a descriptive definition: people are using the word in
+this way, and now it's documented.  As a prescriptive matter, this is
+a foolish use of the word.  To increase the granularity of an image, a
+substance, or any other otherwise continuous medium is to reduce the
+number of grains, increasing their size.  If we say that to increase
+the granularity of a discontinuous (that is, digital) medium is to
+increase the number of grains, reducing their size, we sap clarity
+from the word.
+
+If this continues, I may loose my mind.
+
+(* with this one exception, Chris Vance of SPARTA's presentation on
+SEDarwin was clear and interesting.  It looks like Leopard will have
+some MAC capability, perhaps enough to do something useful. *)

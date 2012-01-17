@@ -1,0 +1,30 @@
+---
+title: Is DRM Intrinsically impossible?
+---
+
+[Jelton at Slashdot](http://ask.slashdot.org/askslashdot/07/01/12/1937215.shtml) asks:
+
+> If digital media was available for sale at a reasonable price, but
+> subject to a DRM scheme that allowed full legitimate usage (format
+> shifting, time shifting, playback on different devices, etc.) and only
+> blocked illicit usage (illegal copying), would you support the usage
+> of such a DRM scheme? Especially if it meant a wealth of readily
+> available compatible devices? In other words, if you object to DRM
+> schemes, is your objection based on principled or practical
+> concerns?
+
+But this distinction doesn't exist.  Such perfect DRM is impossible,
+and we've known it is for decades.  Perfect DRM would have to allow
+use of devices and technologies not yet conceived.  It would have to
+allow all fair such devices, but no unfair devices.  It would have to
+allow me to make a copy for backup, then make another after the first
+was destroyed---but we know it's impossible to prove destruction of a
+copy.
+
+Consider a program composed of three stages, A, B, and C, run in
+sequence.  A does something legal.  C does something illegal.  Can the
+whole program run?  It depends on whether B terminates.  Perfect DRM
+has to solve the [halting problem][].
+There's an equivalent proof using incompleteness.
+
+[halting problem]: http://en.wikipedia.org/wiki/Halting_problem

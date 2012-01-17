@@ -1,0 +1,44 @@
+---
+title: Key-like mechanics for Earthdawn
+---
+
+I want to provide two new mechanics to Earthdawn.  First, I want to
+set up a way for players to flag interesting things and get LP from
+those.  So a player might have written down "Never refuses a duel,"
+and gets LP from doing so on-screen.  Other examples: seeking wealth,
+protecting a ward, defending a faith, building renown, or establishing
+a particular relationship with an organization or character.  Oh, and
+seeking the six-fingered man who killed your father.  The Shadow of
+Yesterday has a good version of this, and is free online.
+
+Second, I want to let players flag particular conflicts as important.
+The second shows up in lots of systems as
+Hero/Fudge/Victory/Fate/Willpower/Karma points.  ED's Karma points are
+actually close, but aren't broadly usable.  It's not clear to me how
+much oomph this system should have: a +1?  +10?  A reroll?
+
+I think these mechanics can be unified, though.  Let's say that you
+can buy your character a **Legend Thread**.  A **Legend** costs as
+much as a first-Circle Talent: so 100, 200, 300, 500, 800... Legend
+Points.  You might buy a Legend of Treasure, or Valor, or Vengeance.
+When you achieve something related to the Legend, you receive Legend
+Points back: a number equal to the cost of your Legend-2, -1, or the
+full cost.  So if you've spent 800 LPs on a Legend, you receive 300,
+500, or 800 LPs for fulfilling its conditions.  If you finish the
+Legend---say by killing the six-fingered man, or renouncing
+violence---recover the cost of L+1 ranks of Legend (1300, in the
+example above).  You can't ever have that Legend Thread again.  It's
+assumed that you'll want to sink most of that into new Legend threads.
+
+If you're in a circumstance where a Legend Thread matters, you can
+check off a rank of Legend and reroll some dice.  I'm not sure how
+often these refresh: never, encouraging you to buy up Legends, use
+them up, then move on to new ones?  Once per session, but you lose the
+rank of Legend if you still fail the roll?  Once per session, but each
+use also costs a Karma point?
+
+Alternately, once per session you can add your Legend Thread rank to a
+Step for a roll?
+
+Both of those are larger than what a Karma die grants you, but Karma's
+pretty cheap.

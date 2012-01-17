@@ -1,0 +1,109 @@
+---
+title: Burning Empires Infection Mechanics
+---
+
+The overarching strategy game of [Burning Empires][] is the Vaylen
+Infection system.  It's basically a generalized tactical game.  There
+are eight maneuvers in a complicated Rock-Paper-Scissors system.  It's
+complicated enough that I can't immediately detect degenerate
+strategies, and I'm concerned that it might be Rock-Paper-Wet
+Noodle-Scissors-Nuke.  Let's try to find out.
+
+### Overview
+
+Each side starts with a Disposition, a number of points.  You win when
+your opponent runs out of points.  The more points you have when you
+win, the less you have to compromise.  
+
+Each turn, you and your privately opponent pick a maneuver.  Attacks
+generally let you roll some dice and subtract the number of successes
+from the enemy's Disposition.  Defenses let you roll some dice and let
+you subtract successes from the enemy's attack dice-pool.  Each
+maneuver limits the RPG-character skills you can use, and the general
+action of the RPG.  For example, during the Invasion phase, you can
+only Take Action with Strategy or Propaganda, but you can use
+Psychohistory, Logistics, Cryptography, or Strategy for a Gambit.
+
+Four of the maneuvers are available at the start of the game:
+
+ * Conserve.  This is a general defense: it defends against all the
+   attack maneuvers except Flak.  That is, you each roll your
+   dice-pools and subtract successes.  Net successes boost your
+   Disposition, or give you downtime before the next move.  That
+   downtime can be useful in the next layer down, the RPG.
+
+ * Go to Ground.  This is a general defense: it defends against all
+   the attack maneuvers except Pin and Gambit.  It also defends
+   against Assess.  Extra successes generate downtime, as with
+   Conserve.
+
+ * Flak.  This is a split attack (Obstacle 1) and defense, but
+   requires at least three dice in each pool.  That means it can only
+   be done by those with great skill, and even then it's pretty weak.
+   It's opposed by Assess, Flak, and Go to Ground---all the opening
+   moves but Conserve---so it looks like a strong opening technique.
+
+ * Assess.  If you succeed in an Obstacle 2 test, and beat any
+   simultaneous Flak, Go to Ground, or Assess, you can now use the
+   other four maneuvers.  All the pure attacks are over there.
+
+And four maneuvers can only be used after a successful Assess:
+
+ * Gambit.  You pay three points of your own Disposition to use this.
+   It trumps Flak and Conserve, and ignores Go to Ground.  It is also
+   an Obstacle 1 attack.
+
+ * Inundate.  Make an Obstacle 1 attack with three extra dice.  If
+   this doesn't win you the fight, you skip your next turn.  This
+   doesn't pull you out of the RPG, but it does mean you'll be
+   defenseless in the Infection game.
+
+ * Pin.  Make an attack, counting the opponent's skill as pure
+   successes.  Instead of subtracting from Disposition, you instead
+   injure his skill for the next turn.  If you reduce it to 0, he
+   loses his turn entirely.  It also gets you some downtime.
+
+ * Take Action.  This is the simple general attack at Obstacle 1.
+   You can also use this to recruit other factions, boosting your own
+   Disposition. 
+
+There's a complicated little matrix of which actions oppose which
+other actions.  One interesting note there is that none of the
+post-Assess maneuvers oppose Assess.  Also, a game is expected to be
+about six to eight turns long.
+
+### Analysis
+
+It's not obviously broken.  There's obviously a drive to get an Assess
+in early in the game.  I can see reasonable tactics of shooting
+straight for it, turtling up with Go to Ground, or just blasting away
+with Flak until your opponent succeeds in his Assess.
+
+Once you Assess and can use the interesting attacks, Pin seems
+like a special case: it's OK, but mostly useful if your opponent has
+weak skills in required areas like Strategy.  Inundate is also a
+special case: the losses from an unopposed attack are too extreme to
+make it worth it except near the end of game.
+
+If you're OK with a compromise in the RPG and you have a very high
+skill, then Gambit is a fine choice.  Since it costs three and does
+expected damage of half your skill, you'd better have a skill of six
+or more.  Since characters start with a maximum skill of six, they'll
+need help or augments of some kind to make Gambit useful.
+
+What happens after you each have an Assess completed?  In general,
+Take Action is what you want for an attack.  The defenses are only
+Flak, Go to Ground, and Conserve.  You do have to keep guessing what
+your opponent will do.  Conserve and Go to Ground are both good
+defenses, but since Flak, Gambit, and Pin are such rare cases, they
+don't often differ.  Obviously, if your opponent is finding it useful
+to Pin, you use Conserve and not Go to Ground.  If he's using Flak and
+can reliably meet his obstacle, you need to Go to Ground and not
+Conserve... but since Take Action opposes Flak, you never need to Go
+to Ground after you both Assess.  You can safely always Take Action or
+Conserve, or Flak to split the difference.  Those are the central
+Aggressive, Defensive, and Split positions.  Everything else is a
+relatively rare special case.
+
+You can see more of this from the Burning Empires Wiki, particularly
+the freely available Infection sheet at <http://www.burningempires.com/wiki/index.php?title=Image:Infection_sheet.pdf>

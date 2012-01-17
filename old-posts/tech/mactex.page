@@ -1,0 +1,24 @@
+---
+title: MacTeX and XeTeX
+---
+
+I'm a great fan of Knuth's TeX system.  I use it for papers, markup on
+literate programs, and slides for talks.  I even use it for letters
+and address labels.  For several years now I've had a split setup: my
+Macs use teTeX from MacPorts while my Debian GNU/Linux machines use
+TeXLive.  TeXLive is a much nicer system---it has dozens of packages
+that Thomas "te" Esser never could ship with teTeX.  But the
+convenience of using MacPorts kept me with its teTeX package.
+
+I'm now delighted to have discovered MacTeX.  It's a Mac-friendly
+TeXLive package, including DVI previewers, TeX-aware spelling
+checkers, and everything you'd ordinarily find in a TeX system.  It
+even includes a working XeTeX.  XeTeX is a recent innovation to
+support Unicode and fancy TrueType fonts in TeX.  You can just write
+
+    \usepackage{fontspec}
+    \setmainfont{Times New Roman:LetterCase=SmallCaps}
+
+and away you go.  It makes it easy to use system fonts in TeX.  Now
+documents produced in ordinary applications (e.g., OmniGraffle) can
+mesh easily with TeX documents.

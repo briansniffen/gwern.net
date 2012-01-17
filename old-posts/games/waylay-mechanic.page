@@ -1,0 +1,34 @@
+---
+title: Proposed waylay mechanic
+---
+
+### Background
+
+The typical [Assassin's Guild][] waylay mechanic involved making a
+hand-sign at somebody for 5 seconds or so.  If they haven't noticed
+by the time you're done, you've knocked them out.  As Charles Hope
+says,
+
+> I feel like it doesn't actually mechanic the "lurk behind the
+> door and beat someone over the head when they open" it thing, it
+> mechanics something closer to a "leet ninja sets up target and
+> takes him down" thing, which is less what I want, as I don't
+> think all my combatants should be leet ninjas, but I think they
+> should all be able to knock someone out from surprise when
+> lurking behind a door.
+
+So how do you deal with this?  You could have the surpriser just jump
+out and say, "Waylay," and if the target's really surprised, he falls
+down.  But this raises multiple-stance issues that the Guild
+traditionally dislikes.
+
+### Solution
+
+Have the surpriser jump out and say "Waylay N times M" for N, M in [1,20].
+If the surprisee can respond with the result quickly enough, he's not
+surprised.  If he can't, he's out.
+
+[Assassin's Guild]: http://web.mit.edu/assassin/www/
+
+**Update**: Make "times" explicit.  That's what I get for blogging
+  when hours of sleep + ounces of caffeine < 8.

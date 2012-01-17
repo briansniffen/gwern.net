@@ -1,0 +1,29 @@
+---
+title: Copying and updating a tree
+---
+
+What's the fastest way to copy a tree-like data structure, while
+updating the copy using an unsorted alist mapping from pointers to old
+values to new values?  A colleague showed up with the na&iuml;ve
+answer, copying the tree and, at each cell looking it up in the old
+list.  If found, copy the new value instead of the old value.  This
+has running time O(*m* *n* log *n*):  *n* log *n* to crawl the tree,
+and *m* to read the whole list at each element.
+
+Coaxing her through what was making this suck, we came up with
+pre-sorting the list.  Now it's faster to do each lookup, but you pay
+to sort it in advance: O(*n* log *m* log *n* + *m* log *m*)
+
+But if you don't care about using some extra space, you can build up a
+map from old pointer to new pointer as you go---with the same shape of
+layout as the original tree.  Now you just na&iuml;vely copy the tree,
+making your dictionary, then scan the list.  At each list element, you
+take a fixed amount of time to look up that cell in your dictionary,
+follow the pointer to the new data cell, and write in the new data.
+O(*n* log *n* + *m*)
+
+I'm pretty sure that's as fast as this can be done, but I'm wildly
+flapping my hands about the constant-lookup-time map---can this be
+done in the same asymptotic time without such terrible space
+performance?
+

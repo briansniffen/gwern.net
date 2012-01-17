@@ -1,0 +1,109 @@
+---
+title: A Taxonomy of Social Conflict mechanics
+---
+
+My weekly [Burning Empires][] group has been having difficulty with some
+of the mechanics.  Some are not well-written as technical
+specifications.  No matter how much fun they are to read, they're
+difficult to apply.  Some just take a very long time---we're
+considering ways to shorten the application of these.  But one has
+caused problems all on its own: the Duel of Wits, Burning Empire's
+social conflict mechanic.  The Duel of Wits was inherited from Burning
+Wheel with minimal changes, so you might understand it as well from
+there.
+
+This has led me to comparison between several games mechanics for
+resolving social conflicts.  They can be classified on several
+principles:
+
+ * Why is the mechanic here?  Is it to force an end to player
+   conflicts, or to simulate convincing characters?
+
+ * What is the conclusion?  Does it let one player edit another's
+   character sheet?  Let one character influence another?  Provide
+   incentives and influence?  Commit players to binding deals?
+
+ * By what means does it operate, combining randomness, character
+   skill, player skill, and player desire?
+
+ * How broadly are they available?  Is this just something for
+   dedicated preachers and diplomats, or a common mechanic?
+
+## Burning Empires and Burning Wheel
+
+The Duel of Wits is a core mechanic of the game: the easiest way to
+extend a conflict beyond a single roll.  It appears to be there
+because the author, Luke Crane, had problems with on-running arguments
+in his group.  Now one player can demand another engage in the Duel of
+Wits or drop the argument.  At the beginning, *players* name forfeits
+from the other side.  At the end, they agree on a compromise between
+those forfeits based on the result of the die rolls.  To cut down on
+randomness and provide some room for player skill, there's a
+[RPS](http://www.worldrps.com/)-derived mechanic for integrating die
+rolls to produce a final score.  Variance in this score influences the
+balance of the compromise.
+
+This is a player-level commitment.  Once, I thought this was a great
+idea.  Having now seen that some players don't like being bound in
+this way, I'm not certain that it's right for all groups or for
+long-term commitments.  It's fine for getting one player to shut up
+about how he hates the group's shadowrunning plan---for that night.
+It's not going to work to get the Elf and the Dwarf to stop bickering
+over racial supremacy issues.
+
+## Weapons of the Gods
+
+An extensive social conflict system, tied to the medicine and sorcery
+mechanics.  All of these work by imposing **Chi Conditions**: incentive
+pairs.  For example, a Courtier might impose the condition "In Love,"
+specifying that the target receives a bonus to certain other
+die-rolls, or a resource useful for the broader game, in every scene
+in which he makes eyes at his beloved.  A less pleasant Courtier might
+make this a negative condition, so that the target receives a penalty
+in any scene in which he does *not* moon around.
+
+These are slow to set up---it's typical for players to show up for a
+session with the Chi Conditions they intend to use in mind.  These
+don't show up in high-action conflict.  Pre-existing Chi Conditions
+can have great impact there.
+
+Because this is an incentive system, players never have the chance to
+complain about others abuse of the system---you're not *bound* to
+behave in a particular way, you merely have set costs.
+
+## Exalted, Second Edition
+
+There's a very complicated tactical mini-game for social conflict.
+It's built parallel to the basic physical combat system, without
+concepts of Soak (armor).  Just as a Mass Combat system exists as a
+modifier to the base combat system, a Mass Social Combat system exists
+to model religious conversions and the like.
+
+The game is heavily focused on player skill: the vast quantity of
+rolls smooth out most randomness.  At the end, a target character *has
+been* convinced of something, but his player may spend a scarce
+resource to have his character act in contravention of this belief.
+It's not clear what this represents in the imagined space: is the
+character stubborn?  strong-willed?  Used to mind-control and so
+willing to act against his own beliefs from time to time?  This escape
+clause is there to make it harder to change a player's character
+without his agreement, so it doesn't have an easy translation to the
+imagined world.
+
+Over time, repeated losses of this Social Combat system can edit a
+character's sheet, contradicting a player's original intent for his
+character.
+
+## Dungeons and Dragons v3.5
+
+This game has a **Diplomacy** skill, not often rolled.  Most GMs drift
+this to require player roleplay, use this to judge "plausible
+reactions," and let dice adjust a bit within that.
+
+There's an entirely different mechanic around the **Bluff** and **Sense
+Motive** skills.  A contest of skill rolls lets one character lie to
+another.  There's not a lot of opportunity given for a player to let
+his character fail one of these tests, or insist that one particular
+test is important.
+
+

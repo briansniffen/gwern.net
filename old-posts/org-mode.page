@@ -1,0 +1,16 @@
+---
+title: Emacs Org Mode
+---
+
+It'll be in Emacs 22, but the Organizer Of The Future is
+[here today](http://staff.science.uva.nl/~dominik/Tools/org/) and
+works with GNU Emacs 21 and XEmacs.
+
+Emacs Org Mode is for taking notes and organizing thoughts.  I find it
+excellent for rapid note-taking.  It supports HTML, plain text, iCal, or
+LaTeX export, a [Markdown][]-like markup system, and simple links.  It
+also has the best Emacs table editor I've ever seen.  This is
+amazingly good elisp.  This was the missing feature for me to take
+notes during many meetings.
+
+[Markdown]: http://daringfireball.net/projects/markdown/

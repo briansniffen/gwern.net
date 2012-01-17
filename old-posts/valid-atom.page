@@ -1,0 +1,19 @@
+---
+title: Atom Validation
+---
+
+The [Atom 1.0][] [feed][] for this blog now validates, according to both
+[feedvalidator][] and the [W3C][].  If you try to read the Atom feed
+and something looks wrong, please let me know!  This doesn't mean it
+works, only that it's been proven correct.  As [Knuth][] said: "Beware of
+bugs in the above code; I have only proved it correct, not tried it."
+
+I do know of one problem: Kat's entry on AT&T has the right link in
+the entry (to `AT&amp;T.html`), but NetNewsWire sends the link from the
+title to `AT&T.html`, which doesn't exist.
+
+[Atom 1.0]: http://www.atomenabled.org/developers/syndication/atom-format-spec.php
+[feed]: http://www.evenmere.org/blog/index.atom
+[feedvalidator]: http://feedvalidator.org/
+[W3C]: http://validator.w3.org/feed/
+[Knuth]: http://www-cs-faculty.stanford.edu/~knuth/faq.html

@@ -1,0 +1,59 @@
+---
+title: Terror in the Skies
+---
+
+We just finished Terror in the Skies, using the Earthdawn Classic
+rules as published by Red Brick Games.  We even got to use their
+new-and-improved Grimoire casting rules in the last session.
+
+It was a fun train-ride.  The GMing advice is less bad than in Mists
+of Betrayal, but it's still firmly set in an early-90s model: the GM
+has a story to have happen, and the players are expected to fight
+it---or at best to not cooperate in shaping it.  Use of the combat
+minigame should be frequent and need not be tied overmuch to the plot.
+Combats should be to the death---there's no reason to provide
+alternate outcomes.
+
+It did have some great dramatic elements.  I was suspicious of the
+ship-combat system, but it ran great: light and fast, and leading to
+wonderful dramatic escapades.  It did take a little work to make sure
+it didn't become a standoff-and-shell fight.  I'd just been reading
+about the Scene Framing rules from *Burning Empires*, and some of last
+night really made their need clear.  We spent a lot of time screwing
+around.  I was too willing to let things wander into what the players
+said they did next, and the players didn't feel like they had the
+authority to push on to the next interesting bit.  They may not have
+had the setting-knowledge to do so effectively.   When I did cut
+sharply from one scene to another, the players accepted and embraced
+it.  It appeared to dramatically improve the gaming.  I must study
+this and improve at it.
+
+Also, I think I now understand more of how treasure (...and take their
+stuff) is supposed to work.
+
+#### Legend Threads
+
+We tried using a mechanic for advancement based on The Shadow of
+Yesterday's "Keys" mechanic.  It didn't work so well.  Partly, I
+didn't give it enough power.  Partly, it works in PC-driven games, but
+has problems with railroads.  That issue can only be fixed by running
+a free game, instead of using pre-generated adventures.  But I think
+keys could be a nice flavor addition to a pre-generated module game if
+they're given enough power, and if the base advancement rate still works.
+
+Earthdawn already has a back-off mechanism for advancement: you need
+O(fib(N)) points to advance a single skill to its next rank, and O(N)
+skills must be advanced to go up a level... each to rank O(N).  So
+when I added Legend Threads that needed similar advancement and only
+gave out O(fib(N)), it was too slow.  You have to advance something
+that's O(N^2 fib N) with something that only pays off O(fib N)---not
+going to work.
+
+A revision: Keys ought to be binary.  Either you have one or you
+don't.  They cost 100C to purchase, where C is your character's
+Circle.  They pay off 20C, 60C, or 100C when the tSoY equivalent
+would pay off 1, 3, or 5.  If you buy one off, it pays 200C.
+
+I do think it's worth trying a system more inspired by Burning Wheel's
+Beliefs, Instincts, and Traits---possibly tied to a generalized
+Karma-boost system.  More on that later.

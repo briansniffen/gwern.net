@@ -1,0 +1,22 @@
+---
+title: PayPal to deploy SecurID
+---
+
+[Apparently](http://arstechnica.com/news.ars/post/20070112-8608.html),
+[PayPal](http://paypal.com) is about to deploy a SecurID-like system.
+SecurID is a two-factor authentication scheme: a little widget
+generates a new code every minute or so.  When you log in, you
+concatenate your password and the magic code.  These are sent to the
+machine on the other side, which can compare the code against a known
+sample.
+
+Notice that no challenge-response is involved, and at no point does
+the server authenticate to you.  Further, no shared secret is
+established for use as a session authenticator.  In practical terms,
+that means that there must be attacks against this.  Here's one:
+perform your normal phishing scheme.  At exactly the moment you
+receive the secret code, log in to the user's account and transfer
+money away from him.
+
+The real problem here is not just users giving away their passwords:
+it's weak authentication in general.

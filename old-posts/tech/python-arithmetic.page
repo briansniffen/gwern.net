@@ -1,0 +1,22 @@
+---
+title: Python Arithmetic
+---
+
+Proof that Python is no good for serious work: its arithmetic operators
+don't handle expressions more than 8 operations long.  Certainly the
+tens digit of this ought to be 0 or 5:
+
+    >>> 950 + \
+    ... 850 + \
+    ... 750 + \
+    ... 650 + \
+    ... 550 + \
+    ... 450 + \
+    ... 350 + \
+    ... 250 + \
+    ... 150 + \
+    ... 050
+    4990
+
+Isn't it amazing that this sort of code persists?
+

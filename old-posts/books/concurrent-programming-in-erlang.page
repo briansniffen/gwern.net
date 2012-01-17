@@ -1,0 +1,34 @@
+---
+title: Concurrent Programming in Erlang, by J. Armstrong, R. Virding, C. Wikstr&ouml;m, and M. Williams
+---
+
+I've been mostly ignoring gaming and technical books for these reviews
+before now, but I think the new format may let me range more broadly.
+
+*Concurrent Programming in Erlang* is one of few books available
+documenting the functional language Erlang.  Erlang is a development
+of Ericsson, used for programming some of their highly reliable
+telephone switches.  It's unusual in that it approaches concurrency
+not by Posix or Java-style threads sharing state, but by passing of
+messages between threads.  Issues of locking and mutexes evaporate.  
+As a side effect, Erlang's threads are very lightweight: a typical
+workstation can spawn tens of thousands of simultaneous threads
+without performance degradation.  Try having 25000 Linux pthreads all
+reading and writing to the network some time and see what happens!
+
+Erlang isn't my preferred language, though, and this book couldn't
+make it so.  The syntax is odd, even for me.  And the libraries are
+oriented very strongly towards networks and concurrency.  There's not
+much support for GUIs or interesting data structures (but see
+[Mnesia][]).  This is a great language for systems programming for
+comms companies, but not so great for hobbyist researchers.
+
+[Mnesia]: http://www.erlang.se/doc/doc-5.0.1/lib/mnesia-3.9.2/
+
+You can read the first half of this book for free at
+<http://www.erlang.org/download/erlang-book-part1.pdf>.  Since the
+second half is only a set of case studies of interesting applications,
+casual readers are likely to miss it very little.
+
+Books read this year: 24
+

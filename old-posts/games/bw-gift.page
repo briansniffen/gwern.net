@@ -1,0 +1,98 @@
+---
+title: Burning Wheel: The Gift
+---
+
+I ran Burning Wheel last night, using a prepackaged convention
+scenario called *The Gift*.  It focuses on conflict arising when an
+Elven Prince visits a newly-crowned Dwarven Prince and forgets to
+bring an appropriate gift.  It works for up to eight players: each
+side gets a Prince, a warrior-advisor, a geeky-advisor, and an
+annoying family member.  The Dwarves have a smelly drunken uncle, the
+only Dwarf PC not hidebound to tradition.  The Elves get a racist
+ranger with the only practical magic in game: he can turn invisible.
+
+We only had five players, and so used the two Princes, the Elven
+Sword-Singer Captain Tragic Samurai, the Dwarven Seneschal and Greedy
+Bastard, and the Drunkle.
+
+This was partly for the fun of this scenario, but largely for a
+shakedown of the Burning Foo mechanics.  We didn't do any character
+burning, but did try out skill tests, versus tests, Artha,
+advancement, and two of the big minigames, "Duel of Wits" and "Fight!".
+
+It worked quite well.  The basic stat and skill system is great.  It
+was clear what skills to roll for any contested tasks.  The mechanism
+for benefitting from related skills (FoRKs) is very powerful and frequently
+used: people with base skills of 4 were often rolling 7 or 8 dice from
+FoRKs and help from others.
+
+The Duel of Wits was very effective at stopping endless posturing:
+once players have taken their positions and started to turtle a bit,
+this is a way to keep the game moving forwards.  It's hard to play a
+character who has a strong opinion, but whose opinion can be changed.
+This shows a way to do it.  Also, it's not too complicated.  We
+managed to have lots of roleplaying in and among the mechanical
+decisions.  It helps that there's a clear spot to say what you do.
+
+Fight! is harder.  There's a lot more going on, what with positioning
+and all.  The extra mechanics for damage and wounds don't get in the
+way---they're nicely isolated.  Some players took too much time
+strategizing and angsting over what to script, but I think that would
+fade in time.  Our biggest problem was fitting in narration and
+stunts.  I've got to look at the rules again.  It's clear when you
+read off your script for the Volley,  then everybody else does, and
+then you make your rolls.  It's not clear when in there you shout
+about rushing across the field and gutting your opponent.  There's an
+[example][] posted on the BW wiki, and it may make this more clear.
+
+[example]: http://www.burningwheel.org/wiki/index.php?title=Multiple_Combatants_Example
+
+
+The one actual Fight! we had was a semiformal duel between the
+princes, except for the bit where one prince went mad with lust for
+the mithril armor of the other in the middle.  Being heavily armored,
+they both managed to shrug off a lot of blows.  It was clear that they
+could dance and nick each other for a long time.  The greater Power
+and Forte of the Dwarf came into play---almost any blow he landed
+would be lethal to his opponent, while the Elfs blows were only
+superficial wounds to the Dwarf.  At one point the Dwarf drew on his
+infernal Greed and smashed in the head of the Elf, rolling a truly
+ludicrous number of dice and open-ending the 6s with a Fate point.
+This would have cut the Elf in half!  The Elf spend one of his very
+scarce Deeds points to not be slaughtered.  The Elf landed a number of
+blows on the Dwarf, but armor saved him every time.
+
+The armor decay mechanics are clearly absolutely necessary.  Without
+those, the Elf could have banged on the Dwarf all night with no
+effect.  As it was, the wound-positioning mechanics were interesting:
+the Dwarf kept offering different limbs, and the Elf kept nicking the
+armor on them down a die or two, or with enough successes
+repositioning over to the weakest spot.
+
+I'm left with two things to check: 
+
+ * Do defenses persist?  That is, if Alice scripts "Avoid" and Bob
+   scripts "Block, Strike," does Alice get any defense against the
+   Strike?  If not, extra attacks from Reflexes are invaluable.
+
+ * When armor falls off, does it do so by location?  Or is that the
+   whole suit failing?
+
+Thanks to Ariel, Kat, Andrew, Owen, and Thomas for helping playtest!
+This system is good enough to run something long-term in.
+
+**Update**: it looks like defenses don't persist.  Reflexes are king.
+  Good thing they're hard to increase, being the floor of the average
+  of Perception, Agility, and Speed.  I could see changing that to be
+  the *lowest* of those three stats instead.
+
+Also, armor does get damaged by location.  This is good, because it
+keeps the wound-placement game interesting.
+
+----
+One small note: Armor is very different from Burning Empires; don't
+confuse the two!  BW armor is dice rolled such that any successes mean
+you don't take a wound, but any 1s mean a die of armor fell off.
+
+
+

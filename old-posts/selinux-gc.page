@@ -1,0 +1,45 @@
+---
+title: Why SELinux is not like assembly language
+---
+
+Sitting at the SELinux symposium this week, I've heard some of the
+smartest people in the room compare SELinux' current state to assembly
+language---and they want better languages.  But I just heard a
+different speaker suggest that an administrator faced with difficult
+SELinux policy authoring "make the computer do the hard work for you."
+
+But this is a special sort of work.  This work is a kind of thinking.
+Historically, computers have only rarely been good at thinking work.
+In fact, they're only good at one very special sort of thinking work:
+those where we can express a simple algorithm that can be reliably
+applied.  For example, computers are good at playing Chess, but not so
+good at solving or writing chess problems interesting to humans.
+Computers are not generally good at creative thinking.  It's
+troublesome to need to restate this.
+
+Given this constraint, obvious as it should be, how did we get past
+assembly language?  We built compilers.  We built interpreters.  We
+built libraries, particularly sophisticated runtime libraries,
+bringing the flexibility of interpreters to compiled languages.
+What's the biggest advantage of modern languages over assembly
+languages?  I don't expect much contradiction when I celebrate the
+Garbage Collector.
+
+A simple GC can be written in assembly language, then used by other
+assembled programs.  A simple compiler can be written in assembly
+language, then used to produce new programs.  The first LISP
+interpreters were written in an assembly language 50 years ago using
+just this strategy.  The core idea here is abstraction: building tools
+with simpler interfaces than contents.   And the SELinux community
+have provided some abstractions.  But they haven't provided them using
+SELinux.  They've provided them using components outside the system.
+This is more like a card-punch than a compiler.
+
+There is no ability to use SELinux itself to build new SELinux
+capability.  In that critical way, it is not like assembly language.
+We should not expect to see self-reinforcing, exponential growth in
+SELinux capability: SELinux, as a constraining rather than enabling
+system, is not the right shape for that.
+
+
+
