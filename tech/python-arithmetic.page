@@ -1,5 +1,6 @@
 ---
 title: Python Arithmetic
+description: Hint: numbers are normally [1-9][0-9]*
 ---
 
 Proof that Python is no good for serious work: its arithmetic operators

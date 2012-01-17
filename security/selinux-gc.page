@@ -1,5 +1,6 @@
 ---
 title: Why SELinux is not like assembly language
+description: Security is not compositional
 ---
 
 Sitting at the SELinux symposium this week, I've heard some of the

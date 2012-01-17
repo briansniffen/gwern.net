@@ -1,5 +1,6 @@
 ---
 title: Debian's module-assistant
+description: It's just not hard to run Linux any more
 ---
 
 Building openafs modules for Debian has always felt a bit clunky.  It

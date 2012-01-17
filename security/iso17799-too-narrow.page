@@ -1,5 +1,6 @@
 ---
 title: ISO 17799 electronics-oriented?
+description: Now ISO 27001, of course
 ---
 
 I just heard an intelligent, IA-focused gentleman discuss his team's
@@ -34,4 +35,4 @@ remember it being structured that way.  Anyone who works with
 CISSP/17799 stuff on a regular basis, am I mis-remembering?  Did this
 guy's quick read of ISO 17799 confuse him?
 
-[1]: bts/f-vs-oo.html
+[1]: /tech/f-vs-oo.html

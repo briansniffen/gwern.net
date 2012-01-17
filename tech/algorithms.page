@@ -1,5 +1,6 @@
 ---
 title: Copying and updating a tree
+description: Algorithmic analysis
 ---
 
 What's the fastest way to copy a tree-like data structure, while
