@@ -1,5 +1,9 @@
 ---
 title: DRM for copy control is both impractical and impure
+description: 
+   Given the goals of DRM, a system has to be perfect or
+   useless: the public statements about "raising the bar"
+   are mistaken.
 ---
 
 In a comment on [my previous post](drm-distasteful.html),
@@ -55,7 +59,9 @@ serve no purpose in preventing illegal copies.
 ## Theory's over
 
 As an example of the last: consider Apple's FairPlay.  I won't buy
-From the iTunes music store because it imposes too many inconveniences
+From the iTunes music store^[Apple stopped using DRM for music years
+ago, and allows in-family sharing for their DRM'd apps. I now do buy
+both of those.] because it imposes too many inconveniences
 on me, coordinating my legal music sharing with Kat.  I did until they
 tightened restrictions; now I won't.  Their billions of dollars of
 investment haven't fixed that because they can't: they do nothing to
