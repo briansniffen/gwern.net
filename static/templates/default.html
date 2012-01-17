@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="google-site-verification" content="BOhOQI1uMfsqu_DopVApovk1mJD5ZBLfan0s9go3phk" />  <!-- Google Web Master Tools -->
+    <meta name="google-site-verification" content="6vlqXc3RdhpGpsoiFF4OLEnRJcX2RMYMB7PGSLup8d8" />  <!-- Google Web Master Tools -->
     <meta name="description" content="$description$" />
     <meta http-equiv="last-modified" content="$modified$" />
 
@@ -21,7 +21,7 @@
   <body>
     <div id="main">
       <div id="header">
-        <img src="/images/logo.png" width="32" height="36" alt="Logo: a fast packet" />
+        <img src="/static/img/logo.png" width="32" height="36" alt="Logo: a fast packet" />
         <h1>$title$</h1>
       </div>
 
@@ -44,7 +44,7 @@
 
       <!-- licensing; see also /About -->
       <div id="footer">
-        href="http://creativecommons.org/licenses/by/3.0/" style="text-decoration:none;"></a>
+        <a href="http://creativecommons.org/licenses/by/3.0/" style="text-decoration:none;"></a>
       </div>
     </div>
 
@@ -80,18 +80,14 @@
     <!-- Comments courtesy of Disqus -->
     <div id="disqus_thread"></div>
     <script type="text/javascript">
-      if (document.title != 'index') { <!-- avoid Disqus comments on front page -->
+      if (document.title != 'Sniffen packets') { <!-- avoid Disqus comments on front page -->
+      var disqus_shortname = 'sniffenpackets';
       (function() {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://disqus.com/forums/gwern/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] ||
+        document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
-      var disqus_shortname = 'gwern';
-      (function () {
-      var s = document.createElement('script'); s.async = true;
-      s.src = 'http://disqus.com/forums/gwern/count.js';
-      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-      }());
       }
       else <!-- suppress Table of Contents by loading an additional special-purpose CSS file -->
       { var head  = document.getElementsByTagName('head')[0];
@@ -103,6 +99,35 @@
       link.media = 'all';
       head.appendChild(link); }</script>
     <noscript><p>Enable JavaScript for Disqus comments</p></noscript>
+
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+    new TWTR.Widget({
+      version: 2,
+      type: 'profile',
+      rpp: 4,
+      interval: 30000,
+      width: 'auto',
+      height: 300,
+      theme: {
+        shell: {
+          background: '#333333',
+          color: '#ffffff'
+        },
+        tweets: {
+          background: '#000000',
+          color: '#ffffff',
+          links: '#4aed05'
+        }
+      },
+      features: {
+        scrollbar: false,
+        loop: false,
+        live: false,
+        behavior: 'all'
+      }
+    }).render().setUser('Brian_Sniffen').start();
+    </script>
 
     <!-- Google+ feed, for lightweight sharing -->
     <!-- 
@@ -121,7 +146,7 @@
     <!-- Load Google Analytics, because the data is interesting and useful -->
     <script id="googleAnalytics" type="text/javascript">
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-18912926-1']);
+      _gaq.push(['_setAccount', 'UA-28395679-1']);
       _gaq.push(['_trackPageview']);
       (function() {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
