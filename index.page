@@ -7,7 +7,7 @@ Topics and pages are roughly sorted
 
 # Security
 - [One icon to the right of the bucket, just below
-  A](tech/online-vandals "On passwords and online vandals")
+  A](security/online-vandals "On passwords and online vandals")
 - [ISO 17799 electronics-oriented?](security/iso17799-too-narrow)
 - [Which other IT workers have you?](security/late-paranoid)
 - [PayPal to deploy SecurID](security/paypal-securid)
